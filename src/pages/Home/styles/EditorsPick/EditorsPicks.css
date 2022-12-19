@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.editors-picks {
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: unset;
+    /*background-color: #E5E5E5;*/
+}
+.ep-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ep-title {
+    height: 350px;
+    width: 30%;
+    border-radius: 5px;
+}
+.ep-header{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #000000;
+}
+.ep-headerI{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #F8F9FA;
+}
+.ep-description, .ep-date {
+    font-size: 12px;
+    color: #F8F9FA;
+}
+.epcont {
+    height: 50%;
+    max-width: 80%;
+
+}
+.ep {
+    text-align: left;
+    align-items: flex-end;
+}
+
