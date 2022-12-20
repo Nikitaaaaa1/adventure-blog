@@ -1,17 +1,15 @@
-import React, {useEffect, useState} from 'react';
+import './About.css'
 
 const About = () => {
 
-    const [arr, setArr] = useState([])
-    const [count, setCount] = useState(0)
-
-    function List ({data=[], renderEmpty}) {
-        if(!data.length) return renderEmpty
-        data.map(p => <div>{p}</div>)
-    }
     return (
-        <section>
-        <List data={arr} renderEmpty={<p>Data list are empty</p>}/>
+        <section className="section">
+            <div className="TextCont">
+                <div className="text">
+                    That`s pages was created `
+                    by Yudin Nikita
+                </div>
+            </div>
         </section>
     );
 };

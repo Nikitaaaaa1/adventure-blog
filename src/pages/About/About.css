@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+.section{
+    display: flex;
+    background: linear-gradient(59deg, rgba(2,0,36,1) 0%, rgba(26,37,92,0.8830882694874825) 15%, rgba(83,83,215,1) 35%, rgba(132,74,195,1) 66%, rgba(0,212,255,1) 100%);
+
+}
+.TextCont {
+    width: 40%;
+    text-align: center;
+    margin: 20% auto;
+    color: white;
+}
+.text {
+  font-size: 60px;
+    font-family: 'Rubik Vinyl', cursive;
+}

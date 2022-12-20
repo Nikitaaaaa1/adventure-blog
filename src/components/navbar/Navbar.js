@@ -11,9 +11,11 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className='logo'>
-                PROJ
-            </div>
+            <Link to='/'>
+                <div className='logo'>
+                    PROJ
+                </div>
+            </Link>
             <div className="menu">
                 {btn.map((p) =>
 
